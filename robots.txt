@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://robot3dprint.com/sitemap.xml
