@@ -1,0 +1,183 @@
+baseURL = "https://robot3dprint.com/"
+languageCode = "en-us"
+title = "Robot 3D Print"
+theme = "printwire"
+
+[params]
+tagline       = "Build better robots faster — 3D printed structural components, custom tooling, and lightweight automation hardware on demand."
+description   = "Robot 3D Print is the manufacturing resource for robotics engineers — covering additive manufacturing of robot bodies, mechanism components, and custom automation hardware from desktop FDM to metal DMLS."
+keywords      = "robot 3D print, automation components AM, robot body 3D printing, custom robot parts, robot manufacturing service, robot arm parts"
+logoEmoji     = "🦾"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#3b82f6"
+colorPrimaryDark  = "#2563eb"
+colorPrimaryLight = "#60a5fa"
+colorBgDark       = "#020612"
+colorBgSection    = "#040a18"
+colorBgCard       = "#070f22"
+colorBgCardHover  = "#0b142e"
+
+fontPrimary   = "Orbitron"
+fontSecondary = "Space+Grotesk"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"]
+
+heroEyebrow  = "Robot Manufacturing by AM"
+heroTitle    = "<em>Robot</em> 3D Print"
+heroSubtitle = "Build better robots faster — 3D printed structural components, custom tooling, and lightweight automation hardware on demand."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+overviewTitle   = "AM for Robotics Engineers"
+overviewText    = "Upload your robot part CAD. Choose polymer or metal. Receive production-ready components in 48 hours — for prototyping, custom automation, and short-run production."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "Robot 3D Print Services"
+servicesSubtitle = "Build better robots faster — 3D printed structural components, custom tooling, and lightweight automation hardware on demand."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Build better robots faster — 3D printed structural components, custom tooling, and lightweight automation hardware on demand."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 24
+suffix = "hr"
+label  = "Polymer Part Turnaround"
+
+[[params.stats]]
+count  = 48
+suffix = "hr"
+label  = "Metal Robot Part Turnaround"
+
+[[params.stats]]
+count  = 20
+suffix = "+"
+label  = "Robot-Grade Materials"
+
+[[params.stats]]
+count  = 50
+suffix = "+"
+label  = "Countries Served"
+
+
+[[params.applications]]
+title       = "Collaborative Robots"
+description = "Cobot end-effectors, tool plates, and bracket systems for Universal Robots, KUKA, and Fanuc platforms."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Industrial Automation"
+description = "Custom jigs, fixtures, and robot cell tooling for lean manufacturing and process automation."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Research Robotics"
+description = "Rapid iteration of academic and research robot platforms — from hand prototypes to full bipedal bodies."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Drone & UAV Components"
+description = "Lightweight carbon fibre reinforced drone frames, motor mounts, and payload systems."
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🦾"
+title       = "Instant Robot Parts"
+description = "Upload STL, choose material, get price in 60 seconds. FDM, SLA, SLS, and DMLS for any robot component."
+
+[[params.servicesPreview]]
+icon        = "🤖"
+title       = "Cobot Tooling"
+description = "Custom end-effectors for UR, KUKA, Fanuc, and ABB cobots — designed, printed, and delivered in 48 hours."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "Lightweight Structures"
+description = "Topology-optimised robot links and frames in AlSi10Mg and titanium — 40–60% lighter than machined equivalents."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Robot R&D Prototyping"
+description = "Rapid prototype service for research teams — multiple material iterations, overnight delivery."
+
+
+[[params.services]]
+name        = "Instant Robot Parts"
+description = "Upload STL, choose material, get price in 60 seconds. FDM, SLA, SLS, and DMLS for any robot component."
+icon        = "🦾"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+[[params.services]]
+name        = "Cobot Tooling"
+description = "Custom end-effectors for UR, KUKA, Fanuc, and ABB cobots — designed, printed, and delivered in 48 hours."
+icon        = "🤖"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+[[params.services]]
+name        = "Lightweight Structures"
+description = "Topology-optimised robot links and frames in AlSi10Mg and titanium — 40–60% lighter than machined equivalents."
+icon        = "◎"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+[[params.services]]
+name        = "Robot R&D Prototyping"
+description = "Rapid prototype service for research teams — multiple material iterations, overnight delivery."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintrobots.com"
+url         = "https://3dprintrobots.com"
+description = "Robotics 3D printing"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintcircuitry.com"
+url         = "https://3dprintcircuitry.com"
+description = "Electronics & circuitry AM"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
