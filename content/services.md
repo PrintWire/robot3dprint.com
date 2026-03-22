@@ -1,0 +1,20 @@
+---
+title: "Robot 3D Print Services"
+type: "page"
+layout: "services"
+description: "Professional robot manufacturing and 3D printed automation components services — Build better robots faster — 3D printed structural components, custom tooling, and lightweight automation hardware on demand."
+heroImage: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1920&q=80"
+process:
+  - step: "01"
+    title: "Consultation"
+    text: "We review your requirements, material specs, tolerances, and production volume to recommend the optimal process."
+  - step: "02"
+    title: "Design Review"
+    text: "DfAM analysis ensures your design is optimised for the chosen process — wall thickness, support strategy, and feature resolution."
+  - step: "03"
+    title: "Production"
+    text: "Parts produced to specification with full process monitoring, quality control, and material traceability."
+  - step: "04"
+    title: "Delivery"
+    text: "Inspection, finishing, and delivery with full documentation and material certification where required."
+---
