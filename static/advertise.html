@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advertise with Robot 3D Print — reach engineers specifying printed hardware for cobot and actuator additive manufacturing.">
+    <meta property="og:title" content="Advertise — Robot 3D Print">
+    <meta property="og:description" content="Advertise with Robot 3D Print — reach engineers specifying printed hardware for cobot and actuator additive manufacturing.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/images/ro02_actuator.png">
+    <title>Advertise — Robot 3D Print</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/editorial.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+
+<header class="ed-header">
+  <div class="ed-header-inner">
+    <a href="/" class="ed-logo">ROBOT&nbsp;<span class="ed-logo-accent">3D&nbsp;PRINT</span></a>
+    <button class="ed-nav-toggle" aria-label="Menu" onclick="document.querySelector('.ed-nav').classList.toggle('open')">&#9776;</button>
+    <nav class="ed-nav">
+      <a href="/">News</a>
+      <a href="/articles/">Research</a>
+      <a href="/#suppliers">Suppliers</a>
+      <a href="/#suppliers">Materials</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <button class="ed-theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">&#9790;</button>
+  </div>
+</header>
+
+<main>
+  <nav class="ed-breadcrumbs"><a href="/">Home</a> / <span>Advertise</span></nav>
+  <div class="ed-content-narrow">
+    <section class="ed-section" style="text-align:center;padding-top:3rem;">
+      <h1>Advertise with Robot 3D Print</h1>
+      <p style="max-width:640px;margin:1rem auto 0;">Reach <strong>engineers, integrators, and builders</strong> actively specifying printed hardware for cobot and actuator additive manufacturing. Our audience arrives with real projects and purchasing authority.</p>
+    </section>
+    <section class="ed-stats">
+      <div class="ed-stat"><div class="ed-stat-value">194</div><div class="ed-stat-label">Niche Domains</div></div>
+      <div class="ed-stat"><div class="ed-stat-value">13</div><div class="ed-stat-label">Flagship Sites</div></div>
+      <div class="ed-stat"><div class="ed-stat-value">100%</div><div class="ed-stat-label">Organic Search Traffic</div></div>
+      <div class="ed-stat"><div class="ed-stat-value">B2B</div><div class="ed-stat-label">Professional Audience</div></div>
+    </section>
+    <section class="ed-section">
+      <span class="ed-section-label">WHO VISITS</span>
+      <div class="ed-grid-3">        <div class="ed-content-card"><h3>&#9881; Mechatronics Engineers</h3><p>Engineers specifying printed actuators, reducers, and joints for new cobots.</p></div>
+        <div class="ed-content-card"><h3>&#128736; Automation Integrators</h3><p>Teams sourcing durable, custom end-of-arm tooling and tool changers.</p></div>
+        <div class="ed-content-card"><h3>&#128200; Robotics Startups</h3><p>Startups evaluating additive manufacturing to cut joint part count, cost, and lead time.</p></div></div>
+    </section>
+    <section class="ed-cta-banner">
+      <h2>Reach the Robot 3D Print Audience</h2>
+      <p>Sponsorships, directory listings, and media partnerships. Tell us your goals.</p>
+      <a href="/contact.html">Get In Touch</a>
+    </section>
+  </div>
+</main>
+<footer class="ed-footer">
+  <div class="ed-footer-inner">
+    <div class="ed-footer-brand">
+      <div class="ed-logo" style="font-size:1.3rem;margin-bottom:0.5rem;">ROBOT&nbsp;<span class="ed-logo-accent">3D&nbsp;PRINT</span></div>
+      <p>Additive manufacturing for cobots and actuation — printed harmonic drives, actuators, end-effectors, and joints. News, research, and a directory connecting engineers to suppliers. Part of the PrintWire network.</p>
+    </div>
+    <div><h4>Sections</h4><ul><li><a href="/">News</a></li><li><a href="/articles/">Research</a></li><li><a href="/#suppliers">Suppliers</a></li><li><a href="/about.html">About</a></li></ul></div>
+    <div><h4>Company</h4><ul><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/advertise.html">Advertise</a></li></ul></div>
+    <div><h4>Coverage</h4><ul><li><a href="#">Cobots</a></li><li><a href="#">Actuators</a></li><li><a href="#">Harmonic Drives</a></li><li><a href="/advertise.html">Advertise</a></li></ul></div>
+  </div>
+  <div class="ed-footer-bottom">
+    <span>&copy; 2026 Robot 3D Print. Part of the <a href="https://3dprint.space" style="color:var(--accent);">PrintWire</a> network.</span>
+    <span><a href="#">Privacy</a><a href="#">Terms</a></span>
+  </div>
+</footer><script>
+(function() {
+  var btn = document.getElementById('themeToggle');
+  var root = document.documentElement;
+  function setTheme(t) { root.setAttribute('data-theme', t); localStorage.setItem('ed-theme', t); btn.innerHTML = t === 'dark' ? '&#9790;' : '&#9728;'; }
+  var s = localStorage.getItem('ed-theme');
+  setTheme(s || 'light');
+  btn.addEventListener('click', function() { setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
+})();
+</script>
+</body>
+</html>
