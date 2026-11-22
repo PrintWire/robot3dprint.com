@@ -45,8 +45,6 @@
     <nav class="ed-nav">
       <a href="/">News</a>
       <a href="/articles/" class="active">Research</a>
-      <a href="/#suppliers">Suppliers</a>
-      <a href="/#suppliers">Materials</a>
       <a href="/about.html">About</a>
       <a href="/contact.html">Contact</a>
     </nav>
@@ -65,8 +63,8 @@
 <footer class="ed-footer">
   <div class="ed-footer-inner">
     <div class="ed-footer-brand">
-      <div class="ed-logo">{{ .Site.Params.logoHtml | default .Site.Params.siteName | safeHTML }}</div>
-      <p>{{ .Site.Params.description }} Part of the PrintWire network.</p>
+      <div class="ed-logo" style="font-size:1.3rem; margin-bottom: 0.5rem;">ROBOT&nbsp;<span class="ed-logo-accent">3D&nbsp;PRINT</span></div>
+      <p>A PrintWire network site about 3D printing for robotics. PrintWire passes quote requests to specialised manufacturers and returns pricing.</p>
     </div>
     <div>
       <h4>Navigation</h4>
@@ -78,30 +76,19 @@
       </ul>
     </div>
     <div>
-      <h4>Coverage</h4>
+      <h4>Advertise</h4>
       <ul>
-        <li><a href="#">Cobots</a></li>
-        <li><a href="#">Actuators</a></li>
-        <li><a href="#">Harmonic Drives</a></li>
         <li><a href="/advertise.html">Advertise With Us</a></li>
       </ul>
     </div>
-    <div>
-      <h4>Applications</h4>
-      <ul>
-        <li><a href="#">Cobot Arms</a></li>
-        <li><a href="#">Actuators</a></li>
-        <li><a href="#">Harmonic Drives</a></li>
-        <li><a href="#">End Effectors</a></li>
-      </ul>
-    </div>
+    
   </div>
   <div class="ed-footer-bottom">
-    <div>&copy; 2026 {{ .Site.Params.siteName }}. Part of the <a href="https://3dprint.space">PrintWire</a> network.</div>
-    <div>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-    </div>
+    <span>&copy; 2026 Robot 3D Print. Part of the <a href="https://3dprint.space" style="color:var(--accent);">PrintWire</a> network.</span>
+    <span>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </span>
   </div>
 </footer>
 

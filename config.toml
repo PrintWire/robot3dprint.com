@@ -13,6 +13,6 @@ title = "Robot 3D Print"
 [params]
 siteName     = "Robot 3D Print"
 logoHtml     = 'ROBOT&nbsp;<span class="ed-logo-accent">3D&nbsp;PRINT</span>'
-description  = "Robot 3D Print: additive manufacturing for cobots and actuation — printed harmonic drives, actuators, end-effectors, tool changers, and joints. News, research, and a supplier directory."
+description  = "Robot 3D Print is a PrintWire network site about 3D printing for robotics. PrintWire passes quote requests to specialised manufacturers and returns pricing. PrintWire does not manufacture parts itself."
 ogImage      = "/images/ro01_cobot.png"
 contactEmail = "maxdavisgroup@gmail.com"
